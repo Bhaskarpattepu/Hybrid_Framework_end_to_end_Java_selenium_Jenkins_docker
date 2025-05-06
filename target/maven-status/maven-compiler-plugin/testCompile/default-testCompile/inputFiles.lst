@@ -1,5 +1,8 @@
 D:\Selenium Hybrid FrameWork\HybridFrameWork\src\test\java\pageObject\AccountRegistrationPage.java
 D:\Selenium Hybrid FrameWork\HybridFrameWork\src\test\java\pageObject\BasePage.java
 D:\Selenium Hybrid FrameWork\HybridFrameWork\src\test\java\pageObject\HomePage.java
+D:\Selenium Hybrid FrameWork\HybridFrameWork\src\test\java\pageObject\LoginPage.java
+D:\Selenium Hybrid FrameWork\HybridFrameWork\src\test\java\pageObject\MyAccountPage.java
 D:\Selenium Hybrid FrameWork\HybridFrameWork\src\test\java\testBase\BaseClass.java
 D:\Selenium Hybrid FrameWork\HybridFrameWork\src\test\java\testCases\TC001_AccountRegistrationTest.java
+D:\Selenium Hybrid FrameWork\HybridFrameWork\src\test\java\testCases\TC002_LoginTest.java

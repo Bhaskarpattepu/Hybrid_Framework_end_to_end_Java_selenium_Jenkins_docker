@@ -22,9 +22,10 @@ public class BaseClass {
     public WebDriver driver;
     public Logger logger;
     public Properties p;
+
     @BeforeClass
     @Parameters({"os","browser"})
-    public void setUp(String os,String br) throws IOException {
+    public void setUp(String os,String browser) throws IOException {
 
         //Loading config.prperties file
         FileReader file = new FileReader("./src/test/resources/config.properties");
@@ -34,7 +35,7 @@ public class BaseClass {
 
         logger = LogManager.getLogger(this.getClass());
 
-        switch (br.toLowerCase())
+        switch (browser.toLowerCase())
         {
             case "chrome" : driver =new ChromeDriver(); break;
             case "edge" : driver = new EdgeDriver(); break;

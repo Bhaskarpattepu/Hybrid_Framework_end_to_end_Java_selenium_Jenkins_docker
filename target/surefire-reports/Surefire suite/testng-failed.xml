@@ -10,6 +10,13 @@
           <include name="setUp"/>
         </methods>
       </class> <!-- testCases.TC001_AccountRegistrationTest -->
+      <class name="testCases.TC002_LoginTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verify_login"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testCases.TC002_LoginTest -->
     </classes>
   </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->
