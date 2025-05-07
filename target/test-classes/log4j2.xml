@@ -7,7 +7,7 @@
         <!-- Console Appender -->
         <Console name="Console" target="SYSTEM_OUT">
             <PatternLayout pattern="%d{HH:mm:ss:SSSS} [%t] %-5level %logger{36} - %msg%n"/>
-        </Console>.
+        </Console>
 
         <!-- Rolling File Appender -->
         <RollingFile name="File" fileName="${basepath}/automation.log" filePattern="${basepath}/automation-%d{yyyy-MM-dd}.log">
@@ -18,7 +18,7 @@
 
     <Loggers>
         <!-- Root Logger -->
-        <Root level="off">
+        <Root level="info">
             <!--<Appenderref ref="Console">-->
             <AppenderRef ref="File"/>
         </Root>

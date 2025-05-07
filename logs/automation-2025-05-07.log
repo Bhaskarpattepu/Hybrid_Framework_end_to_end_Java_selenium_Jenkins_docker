@@ -1,0 +1,55 @@
+22:10:17:0938 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Selenium Hybrid FrameWork\HybridFrameWork\testng.xml
+
+22:14:58:0468 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Selenium Hybrid FrameWork\HybridFrameWork\testng.xml
+
+22:15:15:0837 [main] INFO  testCases.TC003_LoginDDT - ***** Starting TC003_LoginDDT ******
+22:15:17:0134 [main] INFO  testCases.TC003_LoginDDT - java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+22:15:17:0234 [main] INFO  testCases.TC003_LoginDDT - ***** Starting TC003_LoginDDT ******
+22:15:17:0877 [main] INFO  testCases.TC003_LoginDDT - java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+22:15:17:0885 [main] INFO  testCases.TC003_LoginDDT - ***** Starting TC003_LoginDDT ******
+22:15:18:0459 [main] INFO  testCases.TC003_LoginDDT - java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+22:15:18:0467 [main] INFO  testCases.TC003_LoginDDT - ***** Starting TC003_LoginDDT ******
+22:15:19:0190 [main] INFO  testCases.TC003_LoginDDT - java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+22:19:31:0373 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Selenium Hybrid FrameWork\HybridFrameWork\testng.xml
+
+22:19:39:0792 [main] INFO  testCases.TC003_LoginDDT - ***** Starting TC003_LoginDDT ******
+22:19:40:0606 [main] INFO  testCases.TC003_LoginDDT - java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+22:19:40:0612 [main] INFO  testCases.TC003_LoginDDT - ***** Starting TC003_LoginDDT ******
+22:19:41:0266 [main] INFO  testCases.TC003_LoginDDT - java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+22:19:41:0266 [main] INFO  testCases.TC003_LoginDDT - ***** Starting TC003_LoginDDT ******
+22:19:41:0913 [main] INFO  testCases.TC003_LoginDDT - java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+22:19:41:0914 [main] INFO  testCases.TC003_LoginDDT - ***** Starting TC003_LoginDDT ******
+22:19:42:0523 [main] INFO  testCases.TC003_LoginDDT - java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+22:21:59:0461 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Selenium Hybrid FrameWork\HybridFrameWork\testng.xml
+
+22:22:07:0819 [main] INFO  testCases.TC003_LoginDDT - ***** Starting TC003_LoginDDT ******
+22:22:08:0653 [main] INFO  testCases.TC003_LoginDDT - java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+22:22:08:0680 [main] INFO  testCases.TC003_LoginDDT - ***** Starting TC003_LoginDDT ******
+22:22:09:0321 [main] INFO  testCases.TC003_LoginDDT - java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+22:22:09:0327 [main] INFO  testCases.TC003_LoginDDT - ***** Starting TC003_LoginDDT ******
+22:22:09:0939 [main] INFO  testCases.TC003_LoginDDT - java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+22:22:09:0948 [main] INFO  testCases.TC003_LoginDDT - ***** Starting TC003_LoginDDT ******
+22:22:10:0628 [main] INFO  testCases.TC003_LoginDDT - java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+22:24:27:0671 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Selenium Hybrid FrameWork\HybridFrameWork\testng.xml
+
+22:24:32:0968 [main] INFO  testCases.TC003_LoginDDT - ***** Starting TC003_LoginDDT ******
+22:24:34:0084 [main] INFO  testCases.TC003_LoginDDT - java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+22:24:34:0103 [main] INFO  testCases.TC003_LoginDDT - ***** Starting TC003_LoginDDT ******
+22:24:35:0347 [main] INFO  testCases.TC003_LoginDDT - java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+22:24:35:0356 [main] INFO  testCases.TC003_LoginDDT - ***** Starting TC003_LoginDDT ******
+22:24:35:0963 [main] INFO  testCases.TC003_LoginDDT - java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+22:24:35:0979 [main] INFO  testCases.TC003_LoginDDT - ***** Starting TC003_LoginDDT ******
+22:24:36:0581 [main] INFO  testCases.TC003_LoginDDT - java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+23:26:08:0990 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Selenium Hybrid FrameWork\HybridFrameWork\testng.xml
+
+23:26:20:0865 [main] INFO  testCases.TC003_LoginDDT - ***** Starting TC003_LoginDDT ******
+23:26:22:0735 [main] INFO  testCases.TC003_LoginDDT - java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+23:26:22:0802 [main] INFO  testCases.TC003_LoginDDT - ***** Starting TC003_LoginDDT ******
+23:26:23:0692 [main] INFO  testCases.TC003_LoginDDT - java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+23:26:23:0696 [main] INFO  testCases.TC003_LoginDDT - ***** Starting TC003_LoginDDT ******

@@ -1,0 +1,47 @@
+23:26:24:0527 [main] INFO  testCases.TC003_LoginDDT - java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+23:26:24:0559 [main] INFO  testCases.TC003_LoginDDT - ***** Starting TC003_LoginDDT ******
+23:26:25:0354 [main] INFO  testCases.TC003_LoginDDT - java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+00:44:03:0484 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Selenium Hybrid FrameWork\HybridFrameWork\testng.xml
+
+00:44:09:0766 [main] INFO  testCases.TC003_LoginDDT - ***** Starting TC003_LoginDDT ******
+00:44:10:0443 [main] INFO  testCases.TC003_LoginDDT - java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+00:44:10:0452 [main] INFO  testCases.TC003_LoginDDT - ***** Starting TC003_LoginDDT ******
+00:44:11:0444 [main] INFO  testCases.TC003_LoginDDT - java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+00:44:11:0444 [main] INFO  testCases.TC003_LoginDDT - ***** Starting TC003_LoginDDT ******
+00:44:11:0952 [main] INFO  testCases.TC003_LoginDDT - java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+00:44:11:0958 [main] INFO  testCases.TC003_LoginDDT - ***** Starting TC003_LoginDDT ******
+00:44:12:0527 [main] INFO  testCases.TC003_LoginDDT - java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+00:48:58:0164 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Selenium Hybrid FrameWork\HybridFrameWork\testng.xml
+
+00:49:02:0658 [main] INFO  testCases.TC003_LoginDDT - ***** Starting TC003_LoginDDT ******
+00:49:03:0315 [main] INFO  testCases.TC003_LoginDDT - java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+00:49:03:0327 [main] INFO  testCases.TC003_LoginDDT - ***** Starting TC003_LoginDDT ******
+00:49:03:0835 [main] INFO  testCases.TC003_LoginDDT - java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+00:49:03:0838 [main] INFO  testCases.TC003_LoginDDT - ***** Starting TC003_LoginDDT ******
+00:49:04:0893 [main] INFO  testCases.TC003_LoginDDT - java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+00:49:04:0900 [main] INFO  testCases.TC003_LoginDDT - ***** Starting TC003_LoginDDT ******
+00:49:05:0527 [main] INFO  testCases.TC003_LoginDDT - java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+00:59:17:0248 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Selenium Hybrid FrameWork\HybridFrameWork\testng.xml
+
+00:59:22:0619 [main] INFO  testCases.TC003_LoginDDT - ***** Starting TC003_LoginDDT ******
+00:59:23:0190 [main] INFO  testCases.TC003_LoginDDT - java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+00:59:23:0198 [main] INFO  testCases.TC003_LoginDDT - ***** Starting TC003_LoginDDT ******
+00:59:23:0677 [main] INFO  testCases.TC003_LoginDDT - java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+00:59:23:0681 [main] INFO  testCases.TC003_LoginDDT - ***** Starting TC003_LoginDDT ******
+00:59:24:0183 [main] INFO  testCases.TC003_LoginDDT - java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+00:59:24:0187 [main] INFO  testCases.TC003_LoginDDT - ***** Starting TC003_LoginDDT ******
+00:59:24:0712 [main] INFO  testCases.TC003_LoginDDT - java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+01:03:31:0485 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Selenium Hybrid FrameWork\HybridFrameWork\testng.xml
+
+01:03:37:0786 [main] INFO  testCases.TC003_LoginDDT - ***** Starting TC003_LoginDDT ******
+01:03:42:0347 [main] INFO  testCases.TC003_LoginDDT - ****** Finished TC003_LoginDDT ******
+01:03:42:0347 [main] INFO  testCases.TC003_LoginDDT - ***** Starting TC003_LoginDDT ******
+01:03:47:0797 [main] INFO  testCases.TC003_LoginDDT - ****** Finished TC003_LoginDDT ******
+01:03:47:0800 [main] INFO  testCases.TC003_LoginDDT - ***** Starting TC003_LoginDDT ******
+01:03:51:0877 [main] INFO  testCases.TC003_LoginDDT - ****** Finished TC003_LoginDDT ******
+01:03:51:0877 [main] INFO  testCases.TC003_LoginDDT - ***** Starting TC003_LoginDDT ******
+01:03:56:0505 [main] INFO  testCases.TC003_LoginDDT - ****** Finished TC003_LoginDDT ******

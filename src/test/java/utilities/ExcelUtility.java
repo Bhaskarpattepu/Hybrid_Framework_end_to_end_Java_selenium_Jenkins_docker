@@ -54,24 +54,30 @@ public class ExcelUtility {
         fi=new FileInputStream(path);
         wb = new XSSFWorkbook(fi);
         ws=wb.getSheet(xlSheet);
-        row = ws.getRow(rownum);
-        cell = row.getCell(colnum);
 
-        String data;
+        String data ="";
         try
         {
-            //data = cell.toString();
-            DataFormatter formatter = new DataFormatter();
-            data=formatter.formatCellValue(cell); //Returns the formatted value of a cell as a string regardless of the cell type
-
+            row = ws.getRow(rownum);
+            if(row != null) {
+                cell = row.getCell(colnum);
+                if (cell != null) {
+                    //data = cell.toString();
+                    DataFormatter formatter = new DataFormatter();
+                    data = formatter.formatCellValue(cell); //Returns the formatted value of a cell as a string regardless of the cell type
+                }
+            }
         }
         catch (Exception e)
         {
+            System.out.println("Exception while reading cell data: " + e.getMessage());
             data="";
         }
+        finally {
+            wb.close();
+            fi.close();
+        }
 
-        wb.close();
-        fi.close();
         return data;
     }
     public  void setCellData(String sheetName,int rownum,int colnum,String data) throws IOException {
