@@ -31,6 +31,6 @@ public class MyAccountPage extends BasePage {
 
     public void clickLogout()
     {
-        linkLogout.click();git
+        linkLogout.click();
     }
 }
