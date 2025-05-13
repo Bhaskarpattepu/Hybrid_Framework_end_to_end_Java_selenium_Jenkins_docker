@@ -33,7 +33,6 @@ public class BaseClass {
         p = new Properties();
         p.load(file);
 
-
         logger = LogManager.getLogger(this.getClass());
 
         switch (browser.toLowerCase())
@@ -58,7 +57,7 @@ public class BaseClass {
 
     }
 
-    @AfterClass
+    @AfterClass(groups = {"Sanity","Regression","Master","Datadriven"})
     public void tearDown()
     {
         driver.quit();
