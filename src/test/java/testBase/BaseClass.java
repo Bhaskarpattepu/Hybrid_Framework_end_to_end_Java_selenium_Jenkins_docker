@@ -11,6 +11,7 @@ import org.testng.annotations.BeforeClass;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 
 import java.io.FileReader;
@@ -23,9 +24,9 @@ public class BaseClass {
     public Logger logger;
     public Properties p;
 
-    @BeforeClass
+    @BeforeClass(groups = {"Sanity","Regression","Master","Datadriven"})
     @Parameters({"os","browser"})
-    public void setUp(String os,String browser) throws IOException {
+    public void setUp(@Optional("windows") String os, @Optional("chrome") String browser) throws IOException {
 
         //Loading config.prperties file
         FileReader file = new FileReader("./src/test/resources/config.properties");
@@ -45,7 +46,15 @@ public class BaseClass {
 
         driver.manage().deleteAllCookies();
         driver.manage().window().maximize();
-        driver.get(p.getProperty("appUrl2"));  //reading value from properties file
+        String appUrl = p.getProperty("appUrl2"); //reading value from properties file
+        if (appUrl == null || appUrl.trim().isEmpty())
+        {
+            throw new RuntimeException("appUrl2 is not defined in config.properties!");
+        }
+
+        System.out.println("Launching URL: " + appUrl);
+
+        driver.get(appUrl);
 
     }
 

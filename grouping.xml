@@ -1,13 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="All Test Suite1" > <!-- parallel="tests"-->
+<suite name="Grouping suite" > <!-- parallel="tests"-->
+
+    <groups>
+        <run>
+          <!--  <include name="Sanity"/>-->
+          <!--  <include name="Regression"/>-->
+            <include name="Master"/>
+           <!-- <exclude name=""/> -->
+        </run>
+    </groups>
+
     <test thread-count="5" name="chrometest">
         <parameter name="os" value="Windows"/>
         <parameter name="browser" value="chrome"/>
             <classes>
-             <!--  <class name="testCases.TC001_AccountRegistrationTest"/>-->
-              <!--  <class name="testCases.TC002_LoginTest"/> -->
-                <class name="testCases.TC003_LoginDDT"/>
+               <class name="testCases.TC001_AccountRegistrationTest"/>
+              <class name="testCases.TC002_LoginTest"/> 
+              <!--  <class name="testCases.TC003_LoginDDT"/> >
             </classes>
     </test>
 

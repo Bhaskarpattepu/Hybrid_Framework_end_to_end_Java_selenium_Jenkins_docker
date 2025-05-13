@@ -6,3 +6,6 @@ D:\Selenium Hybrid FrameWork\HybridFrameWork\src\test\java\pageObject\MyAccountP
 D:\Selenium Hybrid FrameWork\HybridFrameWork\src\test\java\testBase\BaseClass.java
 D:\Selenium Hybrid FrameWork\HybridFrameWork\src\test\java\testCases\TC001_AccountRegistrationTest.java
 D:\Selenium Hybrid FrameWork\HybridFrameWork\src\test\java\testCases\TC002_LoginTest.java
+D:\Selenium Hybrid FrameWork\HybridFrameWork\src\test\java\testCases\TC003_LoginDDT.java
+D:\Selenium Hybrid FrameWork\HybridFrameWork\src\test\java\utilities\DataProviders.java
+D:\Selenium Hybrid FrameWork\HybridFrameWork\src\test\java\utilities\ExcelUtility.java

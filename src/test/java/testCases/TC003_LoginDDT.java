@@ -18,7 +18,7 @@ Data is invalid  - Login Success - test fail
  */
 public class TC003_LoginDDT extends BaseClass {
 
-    @Test(dataProvider="LoginData",dataProviderClass = utilities.DataProviders.class)    //getting dataprovider from different class
+    @Test(dataProvider="LoginData",dataProviderClass = utilities.DataProviders.class,groups="Datadriven")    //getting dataprovider from different class
     public void verify_loginDDT(String email,String pwd,String exp) {
         try {
 
@@ -32,7 +32,7 @@ public class TC003_LoginDDT extends BaseClass {
             //Login Page
             LoginPage lp = new LoginPage(driver);
             lp.setEmail(email);
-            lp.setPassword(pwd);
+            lp.setPassword(pwd );
             lp.clickLogin();
 
             Thread.sleep(3000);
