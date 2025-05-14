@@ -25,7 +25,7 @@ import java.util.Properties;
 
 public class BaseClass {
 
-    public WebDriver driver;
+    public static WebDriver driver;
     public Logger logger;
     public Properties p;
 

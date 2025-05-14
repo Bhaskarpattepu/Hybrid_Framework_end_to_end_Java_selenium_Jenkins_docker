@@ -11,6 +11,10 @@
         </run>
     </groups>
 
+    <listeners>
+        <listener class-name="utilities.ExtentReportManager"/>
+    </listeners>
+
     <test thread-count="5" name="chrometest">
         <parameter name="os" value="Windows"/>
         <parameter name="browser" value="chrome"/>

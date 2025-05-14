@@ -1,0 +1,48 @@
+09:20:00:0489 [main] ERROR testCases.TC001_AccountRegistrationTest - Exception occuredno such element: Unable to locate element: {"method":"xpath","selector":"//span[normalize-space()='My Account']"}
+  (Session info: chrome=136.0.7103.93)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [42ea5f0128af141d0a71cc18d302513d, findElement {value=//span[normalize-space()='My Account'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.93, chrome: {chromedriverVersion: 136.0.7103.92 (cb81a4cc5087..., userDataDir: C:\Users\Bhask\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55340}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55340/devtoo..., se:cdpVersion: 136.0.7103.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 42ea5f0128af141d0a71cc18d302513d
+09:20:02:0963 [main] INFO  testCases.TC002_LoginTest - ******* Starting  TC002_LoginTest *****
+19:29:52:0647 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Selenium Hybrid FrameWork\HybridFrameWork\grouping.xml
+
+19:29:59:0573 [main] ERROR testCases.TC001_AccountRegistrationTest - Exception occuredno such element: Unable to locate element: {"method":"xpath","selector":"//span[normalize-space()='My Account']"}
+  (Session info: chrome=136.0.7103.93)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a7763e1187bd5f1bb906c05ac3d027db, findElement {value=//span[normalize-space()='My Account'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.93, chrome: {chromedriverVersion: 136.0.7103.92 (cb81a4cc5087..., userDataDir: C:\Users\Bhask\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55527}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55527/devtoo..., se:cdpVersion: 136.0.7103.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a7763e1187bd5f1bb906c05ac3d027db
+19:30:01:0685 [main] INFO  testCases.TC002_LoginTest - ******* Starting  TC002_LoginTest *****
+19:30:29:0172 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Selenium Hybrid FrameWork\HybridFrameWork\grouping.xml
+
+19:30:49:0104 [main] INFO  testCases.TC002_LoginTest - ******* Starting  TC002_LoginTest *****
+19:30:51:0963 [main] INFO  testCases.TC002_LoginTest - *****Finished TC_002_LoginTest*****
+23:38:19:0999 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Selenium Hybrid FrameWork\HybridFrameWork\grouping.xml
+
+23:42:20:0305 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Selenium Hybrid FrameWork\HybridFrameWork\grouping.xml
+
+23:42:30:0530 [main] INFO  testCases.TC002_LoginTest - ******* Starting  TC002_LoginTest *****
+23:42:32:0402 [main] INFO  testCases.TC002_LoginTest - *****Finished TC_002_LoginTest*****
+23:47:40:0781 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Selenium Hybrid FrameWork\HybridFrameWork\grouping.xml
+
+23:47:51:0747 [main] INFO  testCases.TC002_LoginTest - ******* Starting  TC002_LoginTest *****
+23:47:53:0609 [main] INFO  testCases.TC002_LoginTest - *****Finished TC_002_LoginTest*****
+23:49:50:0742 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Selenium Hybrid FrameWork\HybridFrameWork\testng.xml
+
+23:49:55:0495 [main] INFO  testCases.TC003_LoginDDT - ***** Starting TC003_LoginDDT ******
+23:49:59:0389 [main] INFO  testCases.TC003_LoginDDT - ****** Finished TC003_LoginDDT ******
+23:49:59:0408 [main] INFO  testCases.TC003_LoginDDT - ***** Starting TC003_LoginDDT ******
+23:50:05:0158 [main] INFO  testCases.TC003_LoginDDT - ****** Finished TC003_LoginDDT ******

@@ -5,23 +5,32 @@ import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
+import org.apache.commons.mail.DataSourceResolver;
+import org.apache.commons.mail.DefaultAuthenticator;
+import org.apache.commons.mail.ImageHtmlEmail;
+import org.apache.commons.mail.resolver.DataSourceUrlResolver;
 import org.testng.ITestClass;
+import org.testng.ITestContext;
+import org.testng.ITestListener;
 import org.testng.ITestResult;
 import testBase.BaseClass;
 
+import java.awt.*;
+import java.io.File;
 import java.io.IOException;
+import java.net.URL;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
 
-public class ExtentReportManager {
+public class ExtentReportManager implements ITestListener {
 
     public ExtentSparkReporter sparkReporter;
     public ExtentReports extent;
     public ExtentTest test;
     String repName;
 
-    public void onStart(ITestClass testContext)
+    public void onStart(ITestContext testContext)
     {
         /*
         SimpleDateFormat df = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss");
@@ -46,13 +55,13 @@ public class ExtentReportManager {
         extent.setSystemInfo("User Name",System.getProperty("user.name"));
         extent.setSystemInfo("Environment","QA");
 
-        String os = testContext.getXmlTest().getParameter("os");
+        String os = testContext.getCurrentXmlTest().getParameter("os");
         extent.setSystemInfo("Operating System",os);
 
-        String browser = testContext.getXmlTest().getParameter("broser");
+        String browser = testContext.getCurrentXmlTest().getParameter("browser");
         extent.setSystemInfo("Browser",browser);
 
-        List<String> includedGroups = testContext.getXmlTest().getIncludedGroups();
+        List<String> includedGroups = testContext.getCurrentXmlTest().getIncludedGroups();
         if(!includedGroups.isEmpty())
         {
             extent.setSystemInfo("Groups",includedGroups.toString());
@@ -69,7 +78,7 @@ public class ExtentReportManager {
 
     }
 
-    public void onTestFailure(ITestResult result) throws IOException {
+    public void onTestFailure(ITestResult result) {
         test = extent.createTest(result.getTestClass().getName());
         test.assignCategory(result.getMethod().getGroups()); // to display groups in reports
 
@@ -86,5 +95,63 @@ public class ExtentReportManager {
             e1.printStackTrace();
         }
     }
+
+    public void onTestSkipped(ITestResult result)
+    {
+        test = extent.createTest(result.getTestClass().getName());
+        test.assignCategory(result.getMethod().getGroups());
+        test.log(Status.SKIP,result.getName()+" got skipped");
+        test.log(Status.INFO,result.getThrowable().getMessage());
+    }
+
+    public void onFinish(ITestContext testContext)
+    {
+        extent.flush();
+        //To open automatically reports instead of opening reports manually
+        String pathOfExtentReport = System.getProperty("user.dir")+"\\reports\\"+repName;
+        File extentReport = new File(pathOfExtentReport);
+        try {
+            Desktop.getDesktop().browse(extentReport.toURI());
+        }
+        catch (IOException e)
+        {
+            e.printStackTrace();
+        }
+
+        /*
+        For Send automatically reports to your mail
+
+
+        try
+        {
+            URL url = new URL("file:///"+System.getProperty("user.dir")+"\\reports\\"+repName);
+
+            // create e mail message
+
+            ImageHtmlEmail email = new ImageHtmlEmail();
+            email.setDataSourceResolver(new DataSourceUrlResolver(url));
+            email.setHostName("smtp.googlemail.com");
+            email.setSmtpPort(465);
+            email.setAuthenticator(new DefaultAuthenticator("bhaskar.pattepu123@gmail.com","Bhaskar@123"));
+            email.setSSLOnConnect(true);
+            email.setFrom("bhaskar.pattepu123@gmail.com"); // sender
+            email.setSubject("Test Results");
+            email.setMsg("Please find attached Reports");
+            email.addTo("bhaskarpattepu105@gmail.com"); //Receiver
+            email.attach(url,"extent report","Please Check Report");
+            email.send();
+
+
+        }
+        catch (Exception e )
+        {
+            e.printStackTrace();
+        }
+
+         */
+
+    }
+
+
 
 }

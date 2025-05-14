@@ -6,7 +6,17 @@
   <component name="ChangeListManager">
     <list default="true" id="71bfe519-e670-474f-99c5-8e85f2cf24f2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grouping.xml" beforeDir="false" afterPath="$PROJECT_DIR$/grouping.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/automation.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/automation.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/master.xml" beforeDir="false" afterPath="$PROJECT_DIR$/master.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/testBase/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testBase/BaseClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/ExtentReportManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/ExtentReportManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testBase/BaseClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testBase/BaseClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testCases/TC001_AccountRegistrationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testCases/TC001_AccountRegistrationTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,22 +33,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Bhaskarpattepu"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Bhaskarpattepu&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Bhaskarpattepu/DataDrivenbypavan.git",
-    "accountId": "e6439134-8979-4753-a7bc-7ddbaf2a982f"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Bhaskarpattepu/DataDrivenbypavan.git&quot;,
+    &quot;accountId&quot;: &quot;e6439134-8979-4753-a7bc-7ddbaf2a982f&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 5
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2x1YZvGvcdbwniJAOvHpAaOr10f" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -52,10 +62,11 @@
     "TestNG.D:/Selenium Hybrid FrameWork/HybridFrameWork/testng.xml.executor": "Run",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Selenium Hybrid FrameWork/HybridFrameWork/src/test/resources"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.D:/Selenium Hybrid FrameWork/HybridFrameWork/grouping.xml">
+  <component name="RunManager" selected="TestNG.D:/Selenium Hybrid FrameWork/HybridFrameWork/testng.xml">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="HybridFrameWork" />
       <method v="2">
@@ -89,8 +100,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.D:/Selenium Hybrid FrameWork/HybridFrameWork/grouping.xml" />
         <item itemvalue="TestNG.D:/Selenium Hybrid FrameWork/HybridFrameWork/testng.xml" />
+        <item itemvalue="TestNG.D:/Selenium Hybrid FrameWork/HybridFrameWork/grouping.xml" />
       </list>
     </recent_temporary>
   </component>

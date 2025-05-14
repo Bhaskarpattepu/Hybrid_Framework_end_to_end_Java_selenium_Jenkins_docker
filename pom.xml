@@ -77,6 +77,12 @@
             <version>3.17.0</version>
         </dependency>
 
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-email</artifactId>
+            <version>1.5</version> <!-- or latest version -->
+        </dependency>
+
     </dependencies>
 
     <build>
@@ -87,7 +93,7 @@
                 <version>3.1.2</version>
                 <configuration>
                     <suiteXmlFiles>
-                        <suiteXmlFile>testng.xml</suiteXmlFile>
+                        <suiteXmlFile>grouping.xml</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>
