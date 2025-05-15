@@ -3,11 +3,17 @@ package testBase;
 import org.apache.commons.lang3.RandomStringUtils;
 
 import org.openqa.selenium.OutputType;
+import org.openqa.selenium.Platform;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 
@@ -19,6 +25,7 @@ import org.testng.annotations.Parameters;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
+import java.net.URL;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Properties;
@@ -40,13 +47,57 @@ public class BaseClass {
 
         logger = LogManager.getLogger(this.getClass());
 
-        switch (browser.toLowerCase())
+        if(p.getProperty("execution_env").equalsIgnoreCase("remote"))
         {
-            case "chrome" : driver =new ChromeDriver(); break;
-            case "edge" : driver = new EdgeDriver(); break;
-            case "firefox" : driver = new FirefoxDriver(); break;
-            default : System.out.println("invalid browser name in testng xml"); return;
+            try {
+                switch (browser.toLowerCase()) {
+                    case "chrome":
+                        ChromeOptions chromeOptions = new ChromeOptions();
+                        chromeOptions.setPlatformName(os.equalsIgnoreCase("mac") ? "mac" : "windows");
+                        driver = new RemoteWebDriver(new URL("http://192.168.1.59:4444"), chromeOptions);
+                        break;
+
+                    case "edge":
+                        EdgeOptions edgeOptions = new EdgeOptions();
+                        edgeOptions.setPlatformName(os.equalsIgnoreCase("mac") ? "mac" : "windows");
+                        driver = new RemoteWebDriver(new URL("http://192.168.1.59:4444"), edgeOptions);
+                        break;
+
+                    case "firefox":
+                        FirefoxOptions firefoxOptions = new FirefoxOptions();
+                        firefoxOptions.setPlatformName(os.equalsIgnoreCase("mac") ? "mac" : "windows");
+                        driver = new RemoteWebDriver(new URL("http://192.168.1.59:4444"), firefoxOptions);
+                        break;
+
+                    default:
+                        System.out.println("No matching browser for remote execution.");
+                        return;
+                }
+            } catch (Exception e) {
+                throw new RuntimeException("Failed to initialize remote driver: " + e.getMessage());
+            }
+
         }
+
+
+        else if(p.getProperty("execution_env").equalsIgnoreCase("local"))
+        {
+            switch (browser.toLowerCase())
+            {
+                case "chrome" : driver =new ChromeDriver(); break;
+                case "edge" : driver = new EdgeDriver(); break;
+                case "firefox" : driver = new FirefoxDriver(); break;
+                default : System.out.println("invalid browser name in testng xml"); return;
+            }
+
+        }
+        else
+        {
+            throw new RuntimeException("Invalid execution_env value in config.properties. Must be 'local' or 'remote'.");
+        }
+
+
+
 
         driver.manage().deleteAllCookies();
         driver.manage().window().maximize();
@@ -63,8 +114,8 @@ public class BaseClass {
     }
 
     @AfterClass(groups = {"Sanity","Regression","Master","Datadriven"})
-    public void tearDown()
-    {
+    public void tearDown() throws InterruptedException {
+
         driver.quit();
     }
 
