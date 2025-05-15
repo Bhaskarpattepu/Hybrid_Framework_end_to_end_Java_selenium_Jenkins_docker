@@ -1,21 +1,34 @@
-23:50:05:0163 [main] INFO  testCases.TC003_LoginDDT - ***** Starting TC003_LoginDDT ******
-23:50:09:0316 [main] INFO  testCases.TC003_LoginDDT - ****** Finished TC003_LoginDDT ******
-23:50:09:0316 [main] INFO  testCases.TC003_LoginDDT - ***** Starting TC003_LoginDDT ******
-23:50:13:0247 [main] INFO  testCases.TC003_LoginDDT - ****** Finished TC003_LoginDDT ******
-23:56:41:0078 [main] INFO  testCases.TC003_LoginDDT - ***** Starting TC003_LoginDDT ******
-23:56:44:0950 [main] INFO  testCases.TC003_LoginDDT - ****** Finished TC003_LoginDDT ******
-23:56:45:0013 [main] INFO  testCases.TC003_LoginDDT - ***** Starting TC003_LoginDDT ******
-23:56:50:0843 [main] INFO  testCases.TC003_LoginDDT - ****** Finished TC003_LoginDDT ******
-23:56:50:0848 [main] INFO  testCases.TC003_LoginDDT - ***** Starting TC003_LoginDDT ******
-23:56:55:0127 [main] INFO  testCases.TC003_LoginDDT - ****** Finished TC003_LoginDDT ******
-23:56:55:0143 [main] INFO  testCases.TC003_LoginDDT - ***** Starting TC003_LoginDDT ******
-23:56:59:0726 [main] INFO  testCases.TC003_LoginDDT - ****** Finished TC003_LoginDDT ******
-23:59:51:0942 [main] INFO  testCases.TC002_LoginTest - ******* Starting  TC002_LoginTest *****
-23:59:53:0728 [main] INFO  testCases.TC002_LoginTest - *****Finished TC_002_LoginTest*****
-00:10:08:0688 [main] INFO  testCases.TC002_LoginTest - ******* Starting  TC002_LoginTest *****
-00:10:10:0461 [main] INFO  testCases.TC002_LoginTest - *****Finished TC_002_LoginTest*****
-00:12:25:0903 [main] INFO  testCases.TC002_LoginTest - ******* Starting  TC002_LoginTest *****
-00:14:53:0145 [main] INFO  testCases.TC002_LoginTest - ******* Starting  TC002_LoginTest *****
-00:14:54:0945 [main] INFO  testCases.TC002_LoginTest - *****Finished TC_002_LoginTest*****
-00:15:49:0194 [main] INFO  testCases.TC002_LoginTest - ******* Starting  TC002_LoginTest *****
-00:15:51:0624 [main] INFO  testCases.TC002_LoginTest - *****Finished TC_002_LoginTest*****
+00:39:55:0447 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+00:39:55:0461 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+00:39:55:0462 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+00:39:55:0463 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+00:39:55:0463 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+00:39:55:0464 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+00:39:55:0464 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+00:39:55:0464 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+00:39:55:0465 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+00:39:55:0465 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+00:39:55:0465 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+00:39:55:0465 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+00:39:55:0465 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+00:39:55:0468 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+00:39:55:0468 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+00:39:55:0469 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+00:39:55:0469 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+00:39:55:0470 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+00:39:55:0474 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 3 ms.
+00:39:55:0475 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+00:39:55:0476 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+00:39:55:0476 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+00:39:55:0476 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+00:39:55:0479 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Selenium Hybrid FrameWork\HybridFrameWork\master.xml
+
+00:39:55:0859 [main] INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 4 ms.
+00:40:13:0975 [main] INFO  testCases.TC002_LoginTest - ******* Starting  TC002_LoginTest *****
+00:40:20:0232 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@7ce85af2: 0 ms
+00:44:05:0138 [main] INFO  testCases.TC002_LoginTest - ******* Starting  TC002_LoginTest *****
+20:06:37:0823 [main] INFO  testCases.TC002_LoginTest - ******* Starting  TC002_LoginTest *****
+20:06:40:0002 [main] INFO  testCases.TC002_LoginTest - *****Finished TC_002_LoginTest*****
+20:07:40:0223 [main] INFO  testCases.TC002_LoginTest - ******* Starting  TC002_LoginTest *****
+20:07:42:0668 [main] INFO  testCases.TC002_LoginTest - *****Finished TC_002_LoginTest*****
