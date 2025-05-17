@@ -45,6 +45,7 @@ public class BaseClass {
         p = new Properties();
         p.load(file);
 
+
         logger = LogManager.getLogger(this.getClass());
 
         if(p.getProperty("execution_env").equalsIgnoreCase("remote"))
@@ -53,20 +54,20 @@ public class BaseClass {
                 switch (browser.toLowerCase()) {
                     case "chrome":
                         ChromeOptions chromeOptions = new ChromeOptions();
-                        chromeOptions.setPlatformName(os.equalsIgnoreCase("mac") ? "mac" : "windows");
-                        driver = new RemoteWebDriver(new URL("http://192.168.1.59:4444"), chromeOptions);
+                        chromeOptions.setCapability("platformName", os.toUpperCase());
+                        driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), chromeOptions);
                         break;
 
                     case "edge":
                         EdgeOptions edgeOptions = new EdgeOptions();
-                        edgeOptions.setPlatformName(os.equalsIgnoreCase("mac") ? "mac" : "windows");
-                        driver = new RemoteWebDriver(new URL("http://192.168.1.59:4444"), edgeOptions);
+                        edgeOptions.setCapability("platformName", os.toUpperCase());
+                        driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), edgeOptions);
                         break;
 
                     case "firefox":
                         FirefoxOptions firefoxOptions = new FirefoxOptions();
-                        firefoxOptions.setPlatformName(os.equalsIgnoreCase("mac") ? "mac" : "windows");
-                        driver = new RemoteWebDriver(new URL("http://192.168.1.59:4444"), firefoxOptions);
+                        firefoxOptions.setCapability("platformName", os.toUpperCase());
+                        driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), firefoxOptions);
                         break;
 
                     default:
@@ -80,7 +81,7 @@ public class BaseClass {
         }
 
 
-        else if(p.getProperty("execution_env").equalsIgnoreCase("local"))
+       /* else if(p.getProperty("execution_env").equalsIgnoreCase("local"))
         {
             switch (browser.toLowerCase())
             {
@@ -91,6 +92,9 @@ public class BaseClass {
             }
 
         }
+
+        */
+
         else
         {
             throw new RuntimeException("Invalid execution_env value in config.properties. Must be 'local' or 'remote'.");
@@ -116,6 +120,7 @@ public class BaseClass {
     @AfterClass(groups = {"Sanity","Regression","Master","Datadriven"})
     public void tearDown() throws InterruptedException {
 
+        Thread.sleep(5000);
         driver.quit();
     }
 

@@ -1,31 +1,33 @@
-23:23:23:0623 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-23:23:23:0630 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-23:23:23:0630 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-23:23:23:0630 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-23:23:23:0630 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-23:23:23:0630 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-23:23:23:0638 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-23:23:23:0638 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-23:23:23:0644 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-23:23:23:0644 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-23:23:23:0646 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-23:23:23:0646 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-23:23:23:0646 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-23:23:23:0646 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-23:23:23:0646 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-23:23:23:0646 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-23:23:23:0659 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-23:23:23:0659 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-23:23:23:0659 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-23:23:23:0659 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-23:23:23:0663 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-23:23:23:0671 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 7 ms.
-23:23:23:0677 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-23:23:23:0677 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-23:23:23:0679 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-23:23:23:0679 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-23:23:23:0690 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  D:\Selenium Hybrid FrameWork\HybridFrameWork\master.xml
+23:33:40:0687 [main] INFO  testCases.TC002_LoginTest - ******* Starting  TC002_LoginTest *****
+23:42:30:0535 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Selenium Hybrid FrameWork\HybridFrameWork\grid-docker.xml
 
-23:23:24:0349 [main] INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 5 ms.
-23:23:52:0564 [main] INFO  testCases.TC002_LoginTest - ******* Starting  TC002_LoginTest *****
+23:42:48:0264 [main] INFO  testCases.TC002_LoginTest - ******* Starting  TC002_LoginTest *****
+23:42:50:0398 [main] INFO  testCases.TC002_LoginTest - *****Finished TC_002_LoginTest*****
+23:43:18:0661 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Selenium Hybrid FrameWork\HybridFrameWork\grid-docker.xml
+
+23:43:27:0204 [main] ERROR testCases.TC001_AccountRegistrationTest - Test failed..
+23:43:37:0287 [main] INFO  testCases.TC002_LoginTest - ******* Starting  TC002_LoginTest *****
+23:48:17:0722 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Selenium Hybrid FrameWork\HybridFrameWork\grid-docker.xml
+
+23:48:35:0274 [main] INFO  testCases.TC002_LoginTest - ******* Starting  TC002_LoginTest *****
+23:48:37:0908 [main] INFO  testCases.TC002_LoginTest - *****Finished TC_002_LoginTest*****
+23:50:49:0060 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Selenium Hybrid FrameWork\HybridFrameWork\grid-docker.xml
+
+23:52:52:0328 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Selenium Hybrid FrameWork\HybridFrameWork\grid-docker.xml
+
+00:03:03:0721 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Selenium Hybrid FrameWork\HybridFrameWork\grid-docker.xml
+
+00:18:35:0688 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Selenium Hybrid FrameWork\HybridFrameWork\grid-docker.xml
+
+00:44:24:0384 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Selenium Hybrid FrameWork\HybridFrameWork\grid-docker.xml
+
+00:44:49:0234 [main] INFO  testCases.TC002_LoginTest - ******* Starting  TC002_LoginTest *****
+00:44:52:0922 [main] INFO  testCases.TC002_LoginTest - *****Finished TC_002_LoginTest*****

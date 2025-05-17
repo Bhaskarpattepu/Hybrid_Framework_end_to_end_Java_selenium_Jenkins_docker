@@ -6,10 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="71bfe519-e670-474f-99c5-8e85f2cf24f2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/automation-2025-05-15.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/automation-2025-05-15.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/automation.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/automation.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/testBase/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testBase/BaseClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/config.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/testBase/BaseClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testBase/BaseClass.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,25 +46,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;TestNG.D:/Selenium Hybrid FrameWork/HybridFrameWork/grouping.xml.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.D:/Selenium Hybrid FrameWork/HybridFrameWork/master.xml.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.D:/Selenium Hybrid FrameWork/HybridFrameWork/testng.xml.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Selenium Hybrid FrameWork/HybridFrameWork/src/test/resources&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "TestNG.D:/Selenium Hybrid FrameWork/HybridFrameWork/grid-docker.xml.executor": "Run",
+    "TestNG.D:/Selenium Hybrid FrameWork/HybridFrameWork/grouping.xml.executor": "Run",
+    "TestNG.D:/Selenium Hybrid FrameWork/HybridFrameWork/master.xml.executor": "Run",
+    "TestNG.D:/Selenium Hybrid FrameWork/HybridFrameWork/testng.xml.executor": "Run",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Selenium Hybrid FrameWork/HybridFrameWork"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Selenium Hybrid FrameWork\HybridFrameWork\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.D:/Selenium Hybrid FrameWork/HybridFrameWork/master.xml">
+  <component name="RunManager" selected="TestNG.D:/Selenium Hybrid FrameWork/HybridFrameWork/grid-docker.xml">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="HybridFrameWork" />
       <method v="2">
@@ -77,6 +76,16 @@
       <module name="HybridFrameWork" />
       <option name="filePath" />
       <method v="2" />
+    </configuration>
+    <configuration name="D:/Selenium Hybrid FrameWork/HybridFrameWork/grid-docker.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="HybridFramework" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/grid-docker.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="D:/Selenium Hybrid FrameWork/HybridFrameWork/grouping.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="HybridFramework" />
@@ -110,6 +119,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.D:/Selenium Hybrid FrameWork/HybridFrameWork/grid-docker.xml" />
         <item itemvalue="TestNG.D:/Selenium Hybrid FrameWork/HybridFrameWork/master.xml" />
         <item itemvalue="TestNG.D:/Selenium Hybrid FrameWork/HybridFrameWork/testng.xml" />
         <item itemvalue="TestNG.D:/Selenium Hybrid FrameWork/HybridFrameWork/grouping.xml" />
