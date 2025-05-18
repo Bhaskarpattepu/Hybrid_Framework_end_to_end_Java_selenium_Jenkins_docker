@@ -41,3 +41,23 @@
 
 14:30:59:0617 [main] INFO  testCases.TC002_LoginTest - ******* Starting  TC002_LoginTest *****
 14:31:02:0465 [main] INFO  testCases.TC002_LoginTest - *****Finished TC_002_LoginTest*****
+16:40:59:0716 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Selenium Hybrid FrameWork\HybridFrameWork\grouping.xml
+
+16:42:04:0221 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Selenium Hybrid FrameWork\HybridFrameWork\grouping.xml
+
+16:42:59:0658 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Selenium Hybrid FrameWork\HybridFrameWork\grouping.xml
+
+16:44:12:0383 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Selenium Hybrid FrameWork\HybridFrameWork\grouping.xml
+
+16:45:15:0786 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Selenium Hybrid FrameWork\HybridFrameWork\testng.xml
+
+16:46:57:0762 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Selenium Hybrid FrameWork\HybridFrameWork\testng.xml
+
+16:49:21:0259 [main] INFO  testCases.TC002_LoginTest - ******* Starting  TC002_LoginTest *****
+16:49:26:0230 [main] INFO  testCases.TC002_LoginTest - *****Finished TC_002_LoginTest*****

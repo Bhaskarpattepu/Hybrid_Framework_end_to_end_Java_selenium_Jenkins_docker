@@ -81,7 +81,7 @@ public class BaseClass {
         }
 
 
-       /* else if(p.getProperty("execution_env").equalsIgnoreCase("local"))
+        else if(p.getProperty("execution_env").equalsIgnoreCase("local"))
         {
             switch (browser.toLowerCase())
             {
@@ -93,7 +93,7 @@ public class BaseClass {
 
         }
 
-        */
+
 
         else
         {
@@ -120,7 +120,7 @@ public class BaseClass {
     @AfterClass(groups = {"Sanity","Regression","Master","Datadriven"})
     public void tearDown() throws InterruptedException {
 
-        Thread.sleep(5000);
+        //Thread.sleep(5000);
         driver.quit();
     }
 
