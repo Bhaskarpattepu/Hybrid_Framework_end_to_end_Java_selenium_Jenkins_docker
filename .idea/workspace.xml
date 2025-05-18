@@ -7,8 +7,6 @@
     <list default="true" id="71bfe519-e670-474f-99c5-8e85f2cf24f2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/automation.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/automation.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testBase/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testBase/BaseClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testBase/BaseClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testBase/BaseClass.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +35,9 @@
     &quot;accountId&quot;: &quot;e6439134-8979-4753-a7bc-7ddbaf2a982f&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.11.0/testng-7.11.0.jar!/org/testng/Assert.class" root0="SKIP_INSPECTION" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 5
@@ -46,20 +47,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "TestNG.D:/Selenium Hybrid FrameWork/HybridFrameWork/grid-docker.xml.executor": "Run",
-    "TestNG.D:/Selenium Hybrid FrameWork/HybridFrameWork/grouping.xml.executor": "Run",
-    "TestNG.D:/Selenium Hybrid FrameWork/HybridFrameWork/master.xml.executor": "Run",
-    "TestNG.D:/Selenium Hybrid FrameWork/HybridFrameWork/testng.xml.executor": "Run",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Selenium Hybrid FrameWork/HybridFrameWork"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;TestNG.D:/Selenium Hybrid FrameWork/HybridFrameWork/grid-docker.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.D:/Selenium Hybrid FrameWork/HybridFrameWork/grouping.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.D:/Selenium Hybrid FrameWork/HybridFrameWork/master.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.D:/Selenium Hybrid FrameWork/HybridFrameWork/testng.xml.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Selenium Hybrid FrameWork/HybridFrameWork&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Selenium Hybrid FrameWork\HybridFrameWork\src\test\resources" />

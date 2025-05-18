@@ -31,3 +31,13 @@
 
 00:44:49:0234 [main] INFO  testCases.TC002_LoginTest - ******* Starting  TC002_LoginTest *****
 00:44:52:0922 [main] INFO  testCases.TC002_LoginTest - *****Finished TC_002_LoginTest*****
+14:27:56:0017 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Selenium Hybrid FrameWork\HybridFrameWork\grid-docker.xml
+
+14:28:36:0896 [main] INFO  testCases.TC002_LoginTest - ******* Starting  TC002_LoginTest *****
+14:28:47:0747 [main] INFO  testCases.TC002_LoginTest - *****Finished TC_002_LoginTest*****
+14:30:05:0033 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Selenium Hybrid FrameWork\HybridFrameWork\grid-docker.xml
+
+14:30:59:0617 [main] INFO  testCases.TC002_LoginTest - ******* Starting  TC002_LoginTest *****
+14:31:02:0465 [main] INFO  testCases.TC002_LoginTest - *****Finished TC_002_LoginTest*****
