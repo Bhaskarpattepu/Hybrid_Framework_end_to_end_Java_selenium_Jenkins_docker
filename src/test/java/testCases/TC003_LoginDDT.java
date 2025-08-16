@@ -7,7 +7,6 @@ import pageObject.HomePage;
 import pageObject.LoginPage;
 import pageObject.MyAccountPage;
 import testBase.BaseClass;
-
 /*
 Data is valid  - Login Success - test pass -logout
                     Login failed - test fail
