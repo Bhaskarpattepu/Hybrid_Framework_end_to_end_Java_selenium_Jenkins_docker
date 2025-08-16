@@ -51,8 +51,8 @@ public class TC001_AccountRegistrationTest extends BaseClass {
             Assert.fail();
         }
 
-        logger.debug("***** Finished TC001_AccountRegistrationTest *****");
 
+        logger.debug("***** Finished TC001_AccountRegistrationTest *****");
         }
 
 
