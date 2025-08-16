@@ -61,3 +61,14 @@
 
 16:49:21:0259 [main] INFO  testCases.TC002_LoginTest - ******* Starting  TC002_LoginTest *****
 16:49:26:0230 [main] INFO  testCases.TC002_LoginTest - *****Finished TC_002_LoginTest*****
+23:39:49:0474 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Bhask\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+23:39:53:0078 [main] INFO  testCases.TC003_LoginDDT - ***** Starting TC003_LoginDDT ******
+23:39:57:0232 [main] INFO  testCases.TC003_LoginDDT - ****** Finished TC003_LoginDDT ******
+23:39:57:0232 [main] INFO  testCases.TC003_LoginDDT - ***** Starting TC003_LoginDDT ******
+23:40:01:0367 [main] INFO  testCases.TC003_LoginDDT - ****** Finished TC003_LoginDDT ******
+23:40:01:0372 [main] INFO  testCases.TC003_LoginDDT - ***** Starting TC003_LoginDDT ******
+23:40:07:0227 [main] INFO  testCases.TC003_LoginDDT - ****** Finished TC003_LoginDDT ******
+23:40:07:0229 [main] INFO  testCases.TC003_LoginDDT - ***** Starting TC003_LoginDDT ******
+23:40:11:0677 [main] INFO  testCases.TC003_LoginDDT - ****** Finished TC003_LoginDDT ******
