@@ -47,6 +47,11 @@ public class BaseClass {
 
 
         logger = LogManager.getLogger(this.getClass());
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("--headless=new");     // Headless mode (new headless API)
+        options.addArguments("--disable-gpu");      // Recommended for stability
+        options.addArguments("--no-sandbox");       // Needed in some CI environments
+        options.addArguments("--disable-dev-shm-usage");
 
         if(p.getProperty("execution_env").equalsIgnoreCase("remote"))
         {
@@ -99,9 +104,6 @@ public class BaseClass {
         {
             throw new RuntimeException("Invalid execution_env value in config.properties. Must be 'local' or 'remote'.");
         }
-
-
-
 
         driver.manage().deleteAllCookies();
         driver.manage().window().maximize();
