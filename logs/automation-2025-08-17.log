@@ -1,0 +1,80 @@
+23:33:40:0687 [main] INFO  testCases.TC002_LoginTest - ******* Starting  TC002_LoginTest *****
+23:42:30:0535 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Selenium Hybrid FrameWork\HybridFrameWork\grid-docker.xml
+
+23:42:48:0264 [main] INFO  testCases.TC002_LoginTest - ******* Starting  TC002_LoginTest *****
+23:42:50:0398 [main] INFO  testCases.TC002_LoginTest - *****Finished TC_002_LoginTest*****
+23:43:18:0661 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Selenium Hybrid FrameWork\HybridFrameWork\grid-docker.xml
+
+23:43:27:0204 [main] ERROR testCases.TC001_AccountRegistrationTest - Test failed..
+23:43:37:0287 [main] INFO  testCases.TC002_LoginTest - ******* Starting  TC002_LoginTest *****
+23:48:17:0722 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Selenium Hybrid FrameWork\HybridFrameWork\grid-docker.xml
+
+23:48:35:0274 [main] INFO  testCases.TC002_LoginTest - ******* Starting  TC002_LoginTest *****
+23:48:37:0908 [main] INFO  testCases.TC002_LoginTest - *****Finished TC_002_LoginTest*****
+23:50:49:0060 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Selenium Hybrid FrameWork\HybridFrameWork\grid-docker.xml
+
+23:52:52:0328 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Selenium Hybrid FrameWork\HybridFrameWork\grid-docker.xml
+
+00:03:03:0721 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Selenium Hybrid FrameWork\HybridFrameWork\grid-docker.xml
+
+00:18:35:0688 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Selenium Hybrid FrameWork\HybridFrameWork\grid-docker.xml
+
+00:44:24:0384 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Selenium Hybrid FrameWork\HybridFrameWork\grid-docker.xml
+
+00:44:49:0234 [main] INFO  testCases.TC002_LoginTest - ******* Starting  TC002_LoginTest *****
+00:44:52:0922 [main] INFO  testCases.TC002_LoginTest - *****Finished TC_002_LoginTest*****
+14:27:56:0017 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Selenium Hybrid FrameWork\HybridFrameWork\grid-docker.xml
+
+14:28:36:0896 [main] INFO  testCases.TC002_LoginTest - ******* Starting  TC002_LoginTest *****
+14:28:47:0747 [main] INFO  testCases.TC002_LoginTest - *****Finished TC_002_LoginTest*****
+14:30:05:0033 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Selenium Hybrid FrameWork\HybridFrameWork\grid-docker.xml
+
+14:30:59:0617 [main] INFO  testCases.TC002_LoginTest - ******* Starting  TC002_LoginTest *****
+14:31:02:0465 [main] INFO  testCases.TC002_LoginTest - *****Finished TC_002_LoginTest*****
+16:40:59:0716 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Selenium Hybrid FrameWork\HybridFrameWork\grouping.xml
+
+16:42:04:0221 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Selenium Hybrid FrameWork\HybridFrameWork\grouping.xml
+
+16:42:59:0658 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Selenium Hybrid FrameWork\HybridFrameWork\grouping.xml
+
+16:44:12:0383 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Selenium Hybrid FrameWork\HybridFrameWork\grouping.xml
+
+16:45:15:0786 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Selenium Hybrid FrameWork\HybridFrameWork\testng.xml
+
+16:46:57:0762 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Selenium Hybrid FrameWork\HybridFrameWork\testng.xml
+
+16:49:21:0259 [main] INFO  testCases.TC002_LoginTest - ******* Starting  TC002_LoginTest *****
+16:49:26:0230 [main] INFO  testCases.TC002_LoginTest - *****Finished TC_002_LoginTest*****
+23:39:49:0474 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Bhask\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+23:39:53:0078 [main] INFO  testCases.TC003_LoginDDT - ***** Starting TC003_LoginDDT ******
+23:39:57:0232 [main] INFO  testCases.TC003_LoginDDT - ****** Finished TC003_LoginDDT ******
+23:39:57:0232 [main] INFO  testCases.TC003_LoginDDT - ***** Starting TC003_LoginDDT ******
+23:40:01:0367 [main] INFO  testCases.TC003_LoginDDT - ****** Finished TC003_LoginDDT ******
+23:40:01:0372 [main] INFO  testCases.TC003_LoginDDT - ***** Starting TC003_LoginDDT ******
+23:40:07:0227 [main] INFO  testCases.TC003_LoginDDT - ****** Finished TC003_LoginDDT ******
+23:40:07:0229 [main] INFO  testCases.TC003_LoginDDT - ***** Starting TC003_LoginDDT ******
+23:40:11:0677 [main] INFO  testCases.TC003_LoginDDT - ****** Finished TC003_LoginDDT ******
+01:10:36:0568 [main] ERROR testCases.TC001_AccountRegistrationTest - Exception occuredExpected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on windows (b32453f80f253283c690e58768e57910)] -> xpath: //span[normalize-space()='My Account']] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.128, chrome: {chromedriverVersion: 139.0.7258.68 (40ff94600b6e..., userDataDir: C:\Users\Bhask\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54919}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54919/devtoo..., se:cdpVersion: 139.0.7258.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b32453f80f253283c690e58768e57910

@@ -122,6 +122,7 @@ public class BaseClass {
         System.out.println("Launching URL: " + appUrl);
 
         driver.get(appUrl);
+        driver.manage().window().maximize();
 
     }
 
