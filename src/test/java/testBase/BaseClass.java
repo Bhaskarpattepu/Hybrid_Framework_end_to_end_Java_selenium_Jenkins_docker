@@ -47,11 +47,6 @@ public class BaseClass {
 
 
         logger = LogManager.getLogger(this.getClass());
-        ChromeOptions options = new ChromeOptions();
-        options.addArguments("--headless=new");     // Headless mode (new headless API)
-        options.addArguments("--disable-gpu");      // Recommended for stability
-        options.addArguments("--no-sandbox");       // Needed in some CI environments
-        options.addArguments("--disable-dev-shm-usage");
 
         if(p.getProperty("execution_env").equalsIgnoreCase("remote"))
         {
@@ -90,9 +85,20 @@ public class BaseClass {
         {
             switch (browser.toLowerCase())
             {
-                case "chrome" : driver =new ChromeDriver(); break;
-                case "edge" : driver = new EdgeDriver(); break;
-                case "firefox" : driver = new FirefoxDriver(); break;
+                case "chrome" :
+                    ChromeOptions options = new ChromeOptions();
+                    options.addArguments("--headless=new");     // Headless mode (new headless API)
+                    driver =new ChromeDriver();
+                    break;
+                case "edge" :
+                    EdgeOptions edgeOptions = new EdgeOptions();
+                    edgeOptions.addArguments("--headless=new");
+                    driver = new EdgeDriver();
+                    break;
+                case "firefox" :
+                    FirefoxOptions firefoxOptions = new FirefoxOptions();
+                    firefoxOptions.addArguments("--headless");
+                    driver = new FirefoxDriver(); break;
                 default : System.out.println("invalid browser name in testng xml"); return;
             }
 
