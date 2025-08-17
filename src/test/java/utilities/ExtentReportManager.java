@@ -120,8 +120,6 @@ public class ExtentReportManager implements ITestListener {
 
         /*
         For Send automatically reports to your mail
-
-
         try
         {
             URL url = new URL("file:///"+System.getProperty("user.dir")+"\\reports\\"+repName);
