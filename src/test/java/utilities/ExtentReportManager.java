@@ -140,14 +140,11 @@ public class ExtentReportManager implements ITestListener {
             email.addTo("bhaskarpattepu105@gmail.com"); //Receiver
             email.attach(url,"extent report","Please Check Report");
             email.send();
-
-
         }
         catch (Exception e )
         {
             e.printStackTrace();
         }
-
          */
     }
 }
