@@ -8,3 +8,5 @@ Session ID: 99ef155156d4145e91f856349f9c7be0
 01:18:18:0034 [main] INFO  testCases.TC002_LoginTest - ******* Starting  TC002_LoginTest *****
 01:22:33:0762 [main] INFO  testCases.TC002_LoginTest - ******* Starting  TC002_LoginTest *****
 01:22:35:0155 [main] INFO  testCases.TC002_LoginTest - *****Finished TC_002_LoginTest*****
+09:29:36:0948 [main] INFO  testCases.TC002_LoginTest - ******* Starting  TC002_LoginTest *****
+09:29:38:0405 [main] INFO  testCases.TC002_LoginTest - *****Finished TC_002_LoginTest*****

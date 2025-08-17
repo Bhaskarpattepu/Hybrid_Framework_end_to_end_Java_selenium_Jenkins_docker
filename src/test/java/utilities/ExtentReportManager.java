@@ -149,7 +149,6 @@ public class ExtentReportManager implements ITestListener {
         }
 
          */
-
     }
 
 
