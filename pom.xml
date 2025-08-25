@@ -82,7 +82,6 @@
             <artifactId>commons-email</artifactId>
             <version>1.5</version> <!-- or latest version -->
         </dependency>
-
         <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
         <dependency>
             <groupId>io.github.bonigarcia</groupId>
