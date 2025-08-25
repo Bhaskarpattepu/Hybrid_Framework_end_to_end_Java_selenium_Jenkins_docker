@@ -26,3 +26,9 @@ Session ID: 0d8a9c8eae797899d1c9c278de70809e
 23:06:19:0741 [main] INFO  testCases.TC002_LoginTest - *****Finished TC_002_LoginTest*****
 23:10:49:0938 [main] INFO  testCases.TC002_LoginTest - ******* Starting  TC002_LoginTest *****
 23:10:52:0308 [main] INFO  testCases.TC002_LoginTest - *****Finished TC_002_LoginTest*****
+23:41:48:0790 [main] INFO  testCases.TC002_LoginTest - ******* Starting  TC002_LoginTest *****
+23:41:50:0148 [main] INFO  testCases.TC002_LoginTest - *****Finished TC_002_LoginTest*****
+23:45:57:0652 [main] INFO  testCases.TC002_LoginTest - ******* Starting  TC002_LoginTest *****
+23:45:59:0145 [main] INFO  testCases.TC002_LoginTest - *****Finished TC_002_LoginTest*****
+23:46:12:0453 [main] INFO  testCases.TC002_LoginTest - ******* Starting  TC002_LoginTest *****
+23:46:14:0065 [main] INFO  testCases.TC002_LoginTest - *****Finished TC_002_LoginTest*****

@@ -16,7 +16,7 @@
             </classes>
     </test>
 
- <!--   <test name="Linux-Chrome">
+    <test name="Linux-Firefox">
         <parameter name="os" value="Linux" />
         <parameter name="browser" value="firefox" />
         <classes>
@@ -26,7 +26,7 @@
         </classes>
     </test>
 
-   -->
+
 
 
 

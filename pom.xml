@@ -106,6 +106,7 @@
                 <configuration>
                     <suiteXmlFiles>
                         <suiteXmlFile>grouping.xml</suiteXmlFile>
+                        <!-- <suiteXmlFile>grid-docker.xml</suiteXmlFile> -->
                     </suiteXmlFiles>
                 </configuration>
             </plugin>
