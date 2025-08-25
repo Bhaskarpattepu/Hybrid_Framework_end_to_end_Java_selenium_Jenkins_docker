@@ -16,11 +16,11 @@ public class TC002_LoginTest extends BaseClass {
 
         try {
             //HomePage
-            HomePage hp = new HomePage(driver);
+            HomePage hp = new HomePage();
             hp.clickMyAccount();
             hp.clickLogin();
             //Login Page
-            LoginPage lp = new LoginPage(driver);
+            LoginPage lp = new LoginPage();
             lp.setEmail(p.getProperty("email"));
             lp.setPassword(p.getProperty("password"));
             lp.clickLogin();
@@ -28,7 +28,7 @@ public class TC002_LoginTest extends BaseClass {
 
 
             //MyAccount
-            MyAccountPage macc = new MyAccountPage(driver);
+            MyAccountPage macc = new MyAccountPage();
             boolean targetpage = macc.isMyAccountPageExist();
             //Assert.assertEquals(targetpage,true,"Login Failed");
             Assert.assertTrue(targetpage);

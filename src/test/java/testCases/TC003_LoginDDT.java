@@ -22,18 +22,18 @@ public class TC003_LoginDDT extends BaseClass {
             logger.info("***** Starting TC003_LoginDDT ******");
             System.out.println(email+""+pwd+""+exp);
             //Homepage
-            HomePage hp = new HomePage(driver);
+            HomePage hp = new HomePage();
             hp.clickMyAccount();
             hp.clickLogin();
             //Login Page
-            LoginPage lp = new LoginPage(driver);
+            LoginPage lp = new LoginPage();
             lp.setEmail(email);
             lp.setPassword(pwd );
             lp.clickLogin();
 
             Thread.sleep(3000);
             //MyAccount
-            MyAccountPage macc = new MyAccountPage(driver);
+            MyAccountPage macc = new MyAccountPage();
             boolean targetpage = macc.isMyAccountPageExist();
 
             if (exp.equalsIgnoreCase("Valid")) {

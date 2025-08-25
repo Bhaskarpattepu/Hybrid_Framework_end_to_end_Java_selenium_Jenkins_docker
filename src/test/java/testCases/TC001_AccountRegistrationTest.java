@@ -12,13 +12,13 @@ public class TC001_AccountRegistrationTest extends BaseClass {
     {
         logger.debug("*****Starting TC01_AccountRegistrationTest********");
         try {
-            HomePage hp = new HomePage(driver);
+            HomePage hp = new HomePage();
             hp.clickMyAccount();
             logger.debug("Clicked on MyAccount Link");
 
             hp.clickRegister();
             logger.debug("Clicked on Register Link");
-            AccountRegistrationPage repage = new AccountRegistrationPage(driver);
+            AccountRegistrationPage repage = new AccountRegistrationPage();
             logger.debug("Providing Customer details...");
             repage.setTxtFirstName(RandomeString().toUpperCase());
             repage.setTxtLastname(RandomeString().toUpperCase());
@@ -33,6 +33,7 @@ public class TC001_AccountRegistrationTest extends BaseClass {
             logger.debug("After registration...");
             logger.debug("Validating Expected message..");
             String confmsg = repage.getConfirmationMessage();
+            confmsg.trim();
             if(confmsg.equals("Your Account Has Been Created!"))
             {
                 Assert.assertTrue(true);

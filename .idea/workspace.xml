@@ -4,7 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71bfe519-e670-474f-99c5-8e85f2cf24f2" name="Changes" comment="" />
+    <list default="true" id="71bfe519-e670-474f-99c5-8e85f2cf24f2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/automation.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/automation.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageObject/AccountRegistrationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObject/AccountRegistrationPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageObject/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObject/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageObject/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObject/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageObject/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObject/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageObject/MyAccountPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObject/MyAccountPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testBase/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testBase/BaseClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testCases/TC001_AccountRegistrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCases/TC001_AccountRegistrationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testCases/TC002_LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCases/TC002_LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testCases/TC003_LoginDDT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCases/TC003_LoginDDT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testBase/BaseClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testBase/BaseClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testCases/TC001_AccountRegistrationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testCases/TC001_AccountRegistrationTest.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,7 +43,7 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Bhaskarpattepu/DataDrivenbypavan.git&quot;,
+    &quot;url&quot;: &quot;https://github.com/Bhaskarpattepu/Hybrid_Framework_end_to_end_Java_selenium_Jenkins_docker.git&quot;,
     &quot;accountId&quot;: &quot;e6439134-8979-4753-a7bc-7ddbaf2a982f&quot;
   }
 }</component>
@@ -44,21 +59,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "TestNG.D:/Selenium Hybrid FrameWork/HybridFrameWork/grid-docker.xml.executor": "Run",
-    "TestNG.D:/Selenium Hybrid FrameWork/HybridFrameWork/grouping.xml.executor": "Run",
-    "TestNG.D:/Selenium Hybrid FrameWork/HybridFrameWork/master.xml.executor": "Run",
-    "TestNG.D:/Selenium Hybrid FrameWork/HybridFrameWork/testng.xml.executor": "Run",
-    "TestNG.TC003_LoginDDT.executor": "Run",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Selenium Hybrid FrameWork/HybridFrameWork"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;TestNG.D:/Selenium Hybrid FrameWork/HybridFrameWork/grid-docker.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.D:/Selenium Hybrid FrameWork/HybridFrameWork/grouping.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.D:/Selenium Hybrid FrameWork/HybridFrameWork/master.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.D:/Selenium Hybrid FrameWork/HybridFrameWork/testng.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TC003_LoginDDT.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Selenium Hybrid FrameWork/HybridFrameWork&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Selenium Hybrid FrameWork\HybridFrameWork\src\test\resources" />

@@ -13,11 +13,12 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
 
 public class AccountRegistrationPage extends BasePage{
+    /*
     public AccountRegistrationPage(WebDriver driver)
     {
         super(driver);
     }
-
+*/
     @FindBy(xpath = "//input[@id='input-firstname']")
     WebElement txtFirstName;
 
@@ -103,8 +104,8 @@ public class AccountRegistrationPage extends BasePage{
         //btnContinue.sendKeys(Keys.RETURN);
 
         //sol6
-        //WebDriverWait mywait = new WebDriverWait(driver, Duration.ofSeconds(10));
-        //mywait.until(ExpectedConditions.elementToBeClickable(btnContinue));
+        WebDriverWait mywait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        mywait.until(ExpectedConditions.elementToBeClickable(btnContinue));
         btnContinue.click();
 
 

@@ -2,12 +2,13 @@ package pageObject;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
+import testBase.BaseClass;
 
 public class BasePage {
     WebDriver driver;
-    public BasePage(WebDriver driver)
+    public BasePage(/* WebDriver driver */)
     {
-        this.driver=driver;
+        this.driver= BaseClass.getDriver();
         PageFactory.initElements(driver,this);
     }
 }

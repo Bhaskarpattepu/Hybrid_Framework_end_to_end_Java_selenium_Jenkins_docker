@@ -32,9 +32,16 @@ import java.util.Properties;
 
 public class BaseClass {
 
-    public static WebDriver driver;
+    /*WebDriver driver;*/
+    private static ThreadLocal<WebDriver> tlDriver = new ThreadLocal<>();
     public Logger logger;
     public Properties p;
+
+    public static WebDriver getDriver() {
+        return tlDriver.get();
+    }
+
+
 
     @BeforeClass(groups = {"Sanity","Regression","Master","Datadriven"})
     @Parameters({"os","browser"})
@@ -47,6 +54,8 @@ public class BaseClass {
 
 
         logger = LogManager.getLogger(this.getClass());
+
+        WebDriver driver = null;
 
         if(p.getProperty("execution_env").equalsIgnoreCase("remote"))
         {
@@ -87,17 +96,18 @@ public class BaseClass {
             {
                 case "chrome" :
                     ChromeOptions chromeoptions = new ChromeOptions();
-                    chromeoptions.addArguments("--headless=new");     // Headless mode (new headless API)
+                    //chromeoptions.addArguments("--headless=new");     // Headless mode (new headless API)
                     driver =new ChromeDriver(chromeoptions);
                     break;
                 case "edge" :
                     EdgeOptions edgeOptions = new EdgeOptions();
-                    edgeOptions.addArguments("--headless=new");
+
+                    //edgeOptions.addArguments("--headless=new");
                     driver = new EdgeDriver(edgeOptions);
                     break;
                 case "firefox" :
                     FirefoxOptions firefoxOptions = new FirefoxOptions();
-                    firefoxOptions.addArguments("--headless");
+                    //firefoxOptions.addArguments("--headless");
                     driver = new FirefoxDriver(firefoxOptions); break;
                 default : System.out.println("invalid browser name in testng xml"); return;
             }
@@ -111,8 +121,11 @@ public class BaseClass {
             throw new RuntimeException("Invalid execution_env value in config.properties. Must be 'local' or 'remote'.");
         }
 
-        driver.manage().deleteAllCookies();
-        driver.manage().window().maximize();
+        // Set the driver into ThreadLocal
+        tlDriver.set(driver);
+
+        getDriver().manage().deleteAllCookies();
+        getDriver().manage().window().maximize();
         String appUrl = p.getProperty("appUrl2"); //reading value from properties file
         if (appUrl == null || appUrl.trim().isEmpty())
         {
@@ -121,16 +134,18 @@ public class BaseClass {
 
         System.out.println("Launching URL: " + appUrl);
 
-        driver.get(appUrl);
-        driver.manage().window().maximize();
+        getDriver().get(appUrl);
+        getDriver().manage().window().maximize();
 
     }
 
     @AfterClass(groups = {"Sanity","Regression","Master","Datadriven"})
     public void tearDown() throws InterruptedException {
 
-        //Thread.sleep(5000);
-        driver.quit();
+        if(getDriver() != null) {
+            getDriver().quit();
+            tlDriver.remove();
+        }
     }
 
     public String RandomeString()
@@ -154,7 +169,7 @@ public class BaseClass {
     {
         String timestamp = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
 
-        TakesScreenshot takesScreenshot = (TakesScreenshot) driver;
+        TakesScreenshot takesScreenshot = (TakesScreenshot) getDriver();
         File sourceFile = takesScreenshot.getScreenshotAs(OutputType.FILE);
 
         String targetFilePath = System.getProperty("user.dir")+"\\screenshots\\"+tname+"_"+timestamp+".png";
