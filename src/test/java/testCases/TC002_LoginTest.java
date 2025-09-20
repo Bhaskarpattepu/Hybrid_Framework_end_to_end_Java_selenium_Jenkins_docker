@@ -16,22 +16,25 @@ public class TC002_LoginTest extends BaseClass {
 
         try {
             //HomePage
-            HomePage hp = new HomePage();
+            HomePage hp = new HomePage(getDriver());
             hp.clickMyAccount();
             hp.clickLogin();
             //Login Page
-            LoginPage lp = new LoginPage();
+            LoginPage lp = new LoginPage(getDriver());
             lp.setEmail(p.getProperty("email"));
             lp.setPassword(p.getProperty("password"));
             lp.clickLogin();
 
-
-
             //MyAccount
-            MyAccountPage macc = new MyAccountPage();
-            boolean targetpage = macc.isMyAccountPageExist();
-            //Assert.assertEquals(targetpage,true,"Login Failed");
-            Assert.assertTrue(targetpage);
+            MyAccountPage mycc = new MyAccountPage(getDriver());
+            boolean login_success = mycc.is_txtdisplyed();
+            if(login_success)
+            {
+                Assert.assertTrue(true);
+            }
+            else
+                Assert.assertTrue(false);
+
         }
         catch (Exception e)
         {

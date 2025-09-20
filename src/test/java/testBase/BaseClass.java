@@ -96,18 +96,17 @@ public class BaseClass {
             {
                 case "chrome" :
                     ChromeOptions chromeoptions = new ChromeOptions();
-                    chromeoptions.addArguments("--headless=new");     // Headless mode (new headless API)
+                    //chromeoptions.addArguments("--headless=new");     // Headless mode (new headless API)
                     driver =new ChromeDriver(chromeoptions);
                     break;
                 case "edge" :
                     EdgeOptions edgeOptions = new EdgeOptions();
-
-                    edgeOptions.addArguments("--headless=new");
+                    //edgeOptions.addArguments("--headless=new");
                     driver = new EdgeDriver(edgeOptions);
                     break;
                 case "firefox" :
                     FirefoxOptions firefoxOptions = new FirefoxOptions();
-                    firefoxOptions.addArguments("--headless");
+                    //firefoxOptions.addArguments("--headless");
                     driver = new FirefoxDriver(firefoxOptions); break;
                 default : System.out.println("invalid browser name in testng xml"); return;
             }

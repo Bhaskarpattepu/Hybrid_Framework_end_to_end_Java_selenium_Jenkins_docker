@@ -1,0 +1,61 @@
+16:09:34:0060 [main] INFO  testCases.TC003_LoginDDT - ****** Finished TC003_LoginDDT ******
+16:09:34:0076 [main] INFO  testCases.TC003_LoginDDT - ***** Starting TC003_LoginDDT ******
+16:09:37:0037 [main] INFO  testCases.TC003_LoginDDT - ****** Finished TC003_LoginDDT ******
+16:09:37:0040 [main] INFO  testCases.TC003_LoginDDT - ***** Starting TC003_LoginDDT ******
+16:09:40:0218 [main] INFO  testCases.TC003_LoginDDT - ****** Finished TC003_LoginDDT ******
+16:10:15:0712 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Selenium Hybrid FrameWork\HybridFrameWork\testng.xml
+
+16:10:24:0477 [main] INFO  testCases.TC002_LoginTest - ******* Starting  TC002_LoginTest *****
+16:10:26:0369 [main] INFO  testCases.TC002_LoginTest - *****Finished TC_002_LoginTest*****
+16:10:30:0021 [main] INFO  testCases.TC003_LoginDDT - ***** Starting TC003_LoginDDT ******
+16:10:36:0913 [main] INFO  testCases.TC003_LoginDDT - ****** Finished TC003_LoginDDT ******
+16:10:36:0913 [main] INFO  testCases.TC003_LoginDDT - ***** Starting TC003_LoginDDT ******
+16:10:40:0287 [main] INFO  testCases.TC003_LoginDDT - ****** Finished TC003_LoginDDT ******
+16:10:40:0289 [main] INFO  testCases.TC003_LoginDDT - ***** Starting TC003_LoginDDT ******
+16:10:46:0716 [main] INFO  testCases.TC003_LoginDDT - ****** Finished TC003_LoginDDT ******
+16:10:46:0722 [main] INFO  testCases.TC003_LoginDDT - ***** Starting TC003_LoginDDT ******
+16:10:53:0445 [main] INFO  testCases.TC003_LoginDDT - ****** Finished TC003_LoginDDT ******
+16:10:53:0460 [main] INFO  testCases.TC003_LoginDDT - ***** Starting TC003_LoginDDT ******
+16:10:56:0778 [main] INFO  testCases.TC003_LoginDDT - ****** Finished TC003_LoginDDT ******
+16:10:56:0780 [main] INFO  testCases.TC003_LoginDDT - ***** Starting TC003_LoginDDT ******
+16:10:59:0901 [main] INFO  testCases.TC003_LoginDDT - ****** Finished TC003_LoginDDT ******
+16:26:35:0531 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Selenium Hybrid FrameWork\HybridFrameWork\testng.xml
+
+16:26:47:0154 [main] INFO  testCases.TC002_LoginTest - ******* Starting  TC002_LoginTest *****
+16:26:49:0790 [main] INFO  testCases.TC002_LoginTest - *****Finished TC_002_LoginTest*****
+16:26:55:0683 [main] INFO  testCases.TC003_LoginDDT - ***** Starting TC003_LoginDDT ******
+16:27:03:0434 [main] INFO  testCases.TC003_LoginDDT - ****** Finished TC003_LoginDDT ******
+16:27:03:0443 [main] INFO  testCases.TC003_LoginDDT - ***** Starting TC003_LoginDDT ******
+16:27:07:0748 [main] INFO  testCases.TC003_LoginDDT - ****** Finished TC003_LoginDDT ******
+16:27:07:0751 [main] INFO  testCases.TC003_LoginDDT - ***** Starting TC003_LoginDDT ******
+16:27:15:0090 [main] INFO  testCases.TC003_LoginDDT - ****** Finished TC003_LoginDDT ******
+16:27:15:0094 [main] INFO  testCases.TC003_LoginDDT - ***** Starting TC003_LoginDDT ******
+16:27:21:0433 [main] INFO  testCases.TC003_LoginDDT - ****** Finished TC003_LoginDDT ******
+16:27:21:0435 [main] INFO  testCases.TC003_LoginDDT - ***** Starting TC003_LoginDDT ******
+16:27:25:0058 [main] INFO  testCases.TC003_LoginDDT - ****** Finished TC003_LoginDDT ******
+16:27:25:0061 [main] INFO  testCases.TC003_LoginDDT - ***** Starting TC003_LoginDDT ******
+16:27:29:0162 [main] INFO  testCases.TC003_LoginDDT - ****** Finished TC003_LoginDDT ******
+16:28:09:0905 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Selenium Hybrid FrameWork\HybridFrameWork\testng.xml
+
+16:28:21:0640 [main] INFO  testCases.TC002_LoginTest - ******* Starting  TC002_LoginTest *****
+16:28:24:0628 [main] INFO  testCases.TC002_LoginTest - *****Finished TC_002_LoginTest*****
+16:28:31:0234 [main] INFO  testCases.TC003_LoginDDT - ***** Starting TC003_LoginDDT ******
+16:28:39:0054 [main] INFO  testCases.TC003_LoginDDT - ****** Finished TC003_LoginDDT ******
+16:28:39:0066 [main] INFO  testCases.TC003_LoginDDT - ***** Starting TC003_LoginDDT ******
+16:28:43:0686 [main] INFO  testCases.TC003_LoginDDT - ****** Finished TC003_LoginDDT ******
+16:28:43:0686 [main] INFO  testCases.TC003_LoginDDT - ***** Starting TC003_LoginDDT ******
+16:28:51:0343 [main] INFO  testCases.TC003_LoginDDT - ****** Finished TC003_LoginDDT ******
+16:28:51:0358 [main] INFO  testCases.TC003_LoginDDT - ***** Starting TC003_LoginDDT ******
+16:28:58:0906 [main] INFO  testCases.TC003_LoginDDT - ****** Finished TC003_LoginDDT ******
+16:28:58:0906 [main] INFO  testCases.TC003_LoginDDT - ***** Starting TC003_LoginDDT ******
+16:29:02:0854 [main] INFO  testCases.TC003_LoginDDT - ****** Finished TC003_LoginDDT ******
+16:29:02:0856 [main] INFO  testCases.TC003_LoginDDT - ***** Starting TC003_LoginDDT ******
+16:29:07:0238 [main] INFO  testCases.TC003_LoginDDT - ****** Finished TC003_LoginDDT ******
+16:29:24:0902 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Selenium Hybrid FrameWork\HybridFrameWork\testng.xml
+
+16:29:38:0510 [main] INFO  testCases.TC002_LoginTest - ******* Starting  TC002_LoginTest *****
+16:29:41:0807 [main] INFO  testCases.TC002_LoginTest - *****Finished TC_002_LoginTest*****

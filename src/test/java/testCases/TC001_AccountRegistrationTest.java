@@ -12,13 +12,13 @@ public class TC001_AccountRegistrationTest extends BaseClass {
     {
         logger.debug("*****Starting TC01_AccountRegistrationTest********");
         try {
-            HomePage hp = new HomePage();
+            HomePage hp = new HomePage(getDriver());
             hp.clickMyAccount();
             logger.debug("Clicked on MyAccount Link");
 
             hp.clickRegister();
             logger.debug("Clicked on Register Link");
-            AccountRegistrationPage repage = new AccountRegistrationPage();
+            AccountRegistrationPage repage = new AccountRegistrationPage(getDriver());
             logger.debug("Providing Customer details...");
             repage.setTxtFirstName(RandomeString().toUpperCase());
             repage.setTxtLastname(RandomeString().toUpperCase());

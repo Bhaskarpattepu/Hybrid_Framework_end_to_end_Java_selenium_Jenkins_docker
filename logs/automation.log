@@ -1,2 +1,12 @@
-01:20:16:0861 [main] INFO  testCases.TC002_LoginTest - ******* Starting  TC002_LoginTest *****
-01:20:18:0192 [main] INFO  testCases.TC002_LoginTest - *****Finished TC_002_LoginTest*****
+16:29:47:0836 [main] INFO  testCases.TC003_LoginDDT - ***** Starting TC003_LoginDDT ******
+16:29:55:0272 [main] INFO  testCases.TC003_LoginDDT - ****** Finished TC003_LoginDDT ******
+16:29:55:0280 [main] INFO  testCases.TC003_LoginDDT - ***** Starting TC003_LoginDDT ******
+16:30:04:0379 [main] INFO  testCases.TC003_LoginDDT - ****** Finished TC003_LoginDDT ******
+16:30:04:0385 [main] INFO  testCases.TC003_LoginDDT - ***** Starting TC003_LoginDDT ******
+16:30:17:0694 [main] INFO  testCases.TC003_LoginDDT - ****** Finished TC003_LoginDDT ******
+16:30:17:0702 [main] INFO  testCases.TC003_LoginDDT - ***** Starting TC003_LoginDDT ******
+16:30:25:0286 [main] INFO  testCases.TC003_LoginDDT - ****** Finished TC003_LoginDDT ******
+16:30:25:0286 [main] INFO  testCases.TC003_LoginDDT - ***** Starting TC003_LoginDDT ******
+16:30:29:0196 [main] INFO  testCases.TC003_LoginDDT - ****** Finished TC003_LoginDDT ******
+16:30:29:0199 [main] INFO  testCases.TC003_LoginDDT - ***** Starting TC003_LoginDDT ******
+16:30:32:0945 [main] INFO  testCases.TC003_LoginDDT - ****** Finished TC003_LoginDDT ******

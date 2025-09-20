@@ -1,7 +1,6 @@
 package testCases;
 
 import org.testng.Assert;
-import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import pageObject.HomePage;
 import pageObject.LoginPage;
@@ -22,37 +21,32 @@ public class TC003_LoginDDT extends BaseClass {
             logger.info("***** Starting TC003_LoginDDT ******");
             System.out.println(email+""+pwd+""+exp);
             //Homepage
-            HomePage hp = new HomePage();
+            HomePage hp = new HomePage(getDriver());
             hp.clickMyAccount();
             hp.clickLogin();
             //Login Page
-            LoginPage lp = new LoginPage();
+            LoginPage lp = new LoginPage(getDriver());
             lp.setEmail(email);
             lp.setPassword(pwd );
             lp.clickLogin();
-
-            Thread.sleep(3000);
-            //MyAccount
-            MyAccountPage macc = new MyAccountPage();
-            boolean targetpage = macc.isMyAccountPageExist();
-
-            if (exp.equalsIgnoreCase("Valid")) {
-                if (targetpage == true) {
-                    macc.clickLogout();
-                    Assert.assertTrue(true);
-
-                } else {
-                    Assert.assertTrue(false);
-                }
-
+            MyAccountPage myacc = new MyAccountPage(getDriver());
+            String Expected_Result=exp;
+            String trim_exp="";
+            if(Expected_Result!=null)
+            {
+                trim_exp=Expected_Result.trim().toLowerCase();
             }
-            if (exp.equalsIgnoreCase("Invalid")) {
-                if (targetpage ==true) {
-                    macc.clickLogout();
-                    Assert.assertTrue(false);  //After assertion properrly actions are not performed
-                } else {
-                    Assert.assertTrue(true);
-                }
+            if(myacc.is_txtdisplyed())
+            {
+                String Actual_Result = "Valid";
+                myacc.Logout();
+                myacc.click_continue_to_logout();
+                Assert.assertEquals(Actual_Result.trim().toLowerCase(),trim_exp);
+            }
+            else
+            {
+                String Actual_Result = "InValid";
+                Assert.assertEquals(Actual_Result.trim().toLowerCase(),trim_exp);
             }
             logger.info("****** Finished TC003_LoginDDT ******");
 
